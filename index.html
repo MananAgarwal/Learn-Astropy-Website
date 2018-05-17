@@ -13,7 +13,7 @@
 
 </head>
 <body>
-  <div class="jumbotron landing text-center">
+  <div class="container-fluid landing text-center">
     <img src="astropy_logo.png" id="astropy-logo">
     <div class="input-group col-sm-7 m-auto"  id="search-bar">
         <div class="input-group-prepend">
@@ -23,7 +23,7 @@
     </div>  
   </div>  
 
-  <div class="row definition-cards">
+  <div class="container-fluid row definition-cards">
     <div class="card bg-tutorial col-sm-2 p-0 m-2 ml-auto">
       <div class="card-body">
         <h2 class="card-title text-center text-white">Tutorial</h2>
@@ -38,7 +38,7 @@
     </div>
     <div class="card bg-documentation col-sm-2 p-0 m-2">
       <div class="card-body">
-        <h2 class="card-title text-center text-white">Documentation</h2>
+        <h2 class="card-title text-center text-white" style="margin-left: -15px; margin-right: -15px;">Documentation</h2>
         <p class="card-text text-center">Documentation is the complete description of a package with all requisite details, including usage, dependencies, and examples.</p>
       </div>
     </div>
@@ -49,7 +49,36 @@
       </div>
     </div>      
   </div>
-    
-    
-    
+
+  <div class="container-fluid">
+      
+      <div class="card sidenav col-sm-3">
+        <h5 href="#">Astropy packages</h5>
+        <h5 href="#">Non-astropy packages</h5>
+        <h5 href="#">Topics</h5>
+        <h5 href="#">Companion Content</h5>
+      </div> 
+      
+      <div class="card col-sm-7 result guide">
+          <a href="http://www.astropy.org/astropy-tutorials/UVES.html"><div class="card-body">
+            <h3>Analyzing UVES Spectroscopy with Astropy</h3>
+            <p class="card-text ">This tutorial follows my real live data analysis of MN Lup and the code developed below is taken (with only minor modifications) from the code that I used to actually prepare the publication. The plots that will be developed below appear in very similar form in the article published in ApJ, 771, 1, 70.</p>
+          </div></a>
+      </div>
+      
+      <div class="card col-sm-7 result tutorial">
+          <a href="http://www.astropy.org/astropy-tutorials/edshift_plot.html"><div class="card-body">
+            <h3>Make a plot with both redshift and universe age axes using astropy.cosmology</h3>
+            <p class="card-text ">Each redshift corresponds to an age of the universe, so if you're plotting some quantity against redshift, it's often useful show the universe age too. The relationship between the two changes depending the type of cosmology you assume, which is where astropy.cosmology comes in. In this tutorial we'll show how to use the tools in astropy.cosmology to make a plot</p>
+          </div></a>
+      </div>
+      
+      <div class="card col-sm-7 result doc">
+          <a href="http://docs.astropy.org/en/stable/generated/examples/coordinates/plot_galactocentric-frame.html"><div class="card-body">
+            <h3>Transforming positions and velocities to and from a Galactocentric frame</h3>
+            <p class="card-text ">This document shows a few examples of how to use and customize the Galactocentric frame to transform Heliocentric sky positions, distance, proper motions, and radial velocities to a Galactocentric, Cartesian frame, and the same in reverse.</p>
+          </div></a>
+      </div>
+       
+  </div>
 </body>

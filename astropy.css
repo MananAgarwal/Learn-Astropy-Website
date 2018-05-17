@@ -3,6 +3,15 @@ body{
     background-color: #fafafa;
 }
 
+a{
+    text-decoration: none !important;
+    color: black !important;
+}
+
+a :hover{
+    text-decoration: none;
+    
+}
 .card{
     border-radius: 10px;
     border: none;
@@ -17,7 +26,6 @@ body{
 }
 
 .bg-documentation {
-/*    background-color: #ff9800;*/
     background-color: #ffb751;
 }
 
@@ -27,7 +35,7 @@ body{
 
 #astropy-logo {
     width: 35vw;
-    padding-top: 30px;
+    padding-top: 100px;
 }
 
 .landing {
@@ -38,11 +46,36 @@ body{
 }
 
 .definition-cards {
-    margin-top: -95px;
+    margin-top: -70px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 60px;
 }
 
 #search-bar {
     padding: 30px;
-/*    width:60vw;*/
-/*    margin:auto;*/
+}
+
+.sidenav {
+    padding: 20px;  
+    padding-left: 40px;
+    margin-left: 6vw;
+    position: absolute;
+}
+
+.result {
+    margin-left: 33vw;
+    margin-bottom: 25px;
+}
+
+.guide {
+    border-left: 10px solid #fa743b;
+}
+
+.tutorial {
+    border-left: 10px solid #f44336;
+}
+
+.doc {
+    border-left: 10px solid #ffb751;
 }
