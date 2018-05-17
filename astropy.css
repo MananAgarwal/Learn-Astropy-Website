@@ -1,5 +1,6 @@
 body{
     padding : 0px;
+    background-color: #fafafa;
 }
 
 .card{
@@ -24,10 +25,24 @@ body{
     background-color: #ffc67b;
 }
 
+#astropy-logo {
+    width: 35vw;
+    padding-top: 30px;
+}
 
-#starry-bg {
-    display: block;
-    width: 100vw;
-    height: auto;
-    margin-bottom: -80px;
+.landing {
+    background: url(starry_background.png) no-repeat center center;
+    background-size: cover;
+    height: 400px;
+    border-radius: 0px;
+}
+
+.definition-cards {
+    margin-top: -95px;
+}
+
+#search-bar {
+    padding: 30px;
+/*    width:60vw;*/
+/*    margin:auto;*/
 }
