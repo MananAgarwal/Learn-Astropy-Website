@@ -1,0 +1,23 @@
+body{
+    padding : 0px;
+}
+
+.card{
+    border-radius: 10px;
+}
+.bg-tutorial {
+    background-color: #f44336;
+}
+
+.bg-guide {
+    background-color: #fa743b;
+}
+
+.bg-documentation {
+/*    background-color: #ff9800;*/
+    background-color: #ffb751;
+}
+
+.bg-example {
+    background-color: #ffc67b;
+}
